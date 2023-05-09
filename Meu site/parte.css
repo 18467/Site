@@ -1,0 +1,73 @@
+body {
+
+        background-color: #fafafa; 
+      
+      
+}
+
+header {
+    background-color: #0f0a0d;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .Primeiro{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0);
+    }
+  .Segundo{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0);
+    margin-right: 86%;
+    text-align: center;
+} 
+
+
+  .lista1, .lista2, .lista3, .lista4
+{
+    float:right;
+    /* ou use float: left; */
+    width: 21%;
+    /* ajuste a largura conforme necessário */
+    vertical-align: top;
+    /* alinhe as listas superiormente */
+    margin: 0;
+    /* remova as margens padrão da lista */
+    padding: 0;
+    /* remova o preenchimento padrão da lista */
+  
+
+
+}
